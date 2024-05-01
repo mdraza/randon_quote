@@ -24,7 +24,7 @@ const Randon_quote = () => {
 
   return (
     <div className="flex justify-center items-center bg-slate-800 h-[100vh] shadow-md">
-      <div className="flex flex-col justify-center w-[40%] p-8 bg-slate-100 rounded-md">
+      <div className="flex flex-col justify-center lg:w-[40%] md:w-[50%] sm:w-[80%] w-[95%] p-8 bg-slate-100 rounded-md">
         <div className="text-center">
           <p className="text-slate-900 text-lg">
             <FaQuoteLeft className="text-md inline-block mr-2" />
