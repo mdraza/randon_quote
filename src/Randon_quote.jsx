@@ -31,7 +31,7 @@ const Randon_quote = () => {
             {quote.text}
           </p>
           <p className="flex justify-end mt-4 text-sm text-slate-500">
-            - {quote.author}
+            - {quote.author.split(",")[0]}
           </p>
         </div>
         <div className="flex justify-between items-center mt-6">
